@@ -461,12 +461,6 @@ button {
   width: 100%;
  }
 
-
-
-
-
-
-
 .waviy {
   position: relative;
   margin: 100px auto 0 auto;
@@ -490,10 +484,6 @@ button {
   }
 }
 
-
-
-
-
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 /* Base */
 
@@ -502,7 +492,7 @@ button {
   color: hsl(0, 0%, 0%);
   font-family: 'Playfair Display', serif;
   letter-spacing: 3px;
-  margin-left: 32.8%;
+  margin-left: 34.8%;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 0%);
   white-space: nowrap;
@@ -537,7 +527,7 @@ a:hover {
 .top-container {
   background-image: linear-gradient(rgb(66, 68, 68), rgb(255, 255, 255));
   padding-top: 100px;
-  height: 400px;
+  height: 550px;
   width: 100%;
 }
 
