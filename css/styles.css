@@ -492,7 +492,7 @@ button {
   color: hsl(0, 0%, 0%);
   font-family: 'Playfair Display', serif;
   letter-spacing: 3px;
-  margin-left: 34.8%;
+  margin-left: 35.2%;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 0%);
   white-space: nowrap;
@@ -527,7 +527,7 @@ a:hover {
 .top-container {
   background-image: linear-gradient(rgb(66, 68, 68), rgb(255, 255, 255));
   padding-top: 100px;
-  height: 550px;
+  height: 540px;
   width: 100%;
 }
 
@@ -551,6 +551,7 @@ a:hover {
 
 .middle-container1 {
   display: inline-flex;
+  margin-left: 40px;
 }
 
   .price-number {
@@ -685,8 +686,8 @@ a:hover {
   border: .5vmin solid #05060f;
   box-shadow: .4rem .4rem #05060f;
   overflow: hidden;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   margin-bottom: 20px;
 }
 
