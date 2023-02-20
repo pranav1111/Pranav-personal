@@ -6,18 +6,18 @@ body {
   overflow-x: hidden;
 }
 h1 {
-  margin: 110px auto 0 auto;
+  margin: 6.875rem auto 0 auto;
   font-size: 300%;
   color: #000000;
-  letter-spacing: 5px;
+  letter-spacing: 0.313rem;
   font-family: 'Playfair Display', serif;
   }
 
   .bird {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
     background-size: auto 100%;
-    width: 88px;
-    height: 125px;
+    width: 5.5rem;
+    height: 7.813rem;
     will-change: background-position;
     -webkit-animation-name: fly-cycle;
             animation-name: fly-cycle;
@@ -95,13 +95,13 @@ h1 {
 
   @-webkit-keyframes fly-cycle {
     100% {
-      background-position: -900px 0;
+      background-position: -56.25rem 0;
     }
   }
   
   @keyframes fly-cycle {
     100% {
-      background-position: -900px 0;
+      background-position: -56.25rem 0;
     }
   }
   @-webkit-keyframes fly-right-one {
@@ -242,15 +242,15 @@ h1 {
   }
 
   .card {
-    margin-top: 60px;
-    margin-right: 20px;
-    width: 190px;
-    height: 120px;
+    margin-top: 3.75rem;
+    margin-right: 1.25rem;
+    width: 11.875rem;
+    height: 7.5rem;
     background-color: #eee;
     text-align: center;
-    border: 10px solid #eee;
-    border-radius: 20px;
-    box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff;
+    border: 0.625rem solid #eee;
+    border-radius: 1.25rem;
+    box-shadow: inset 0.313rem 0.313rem 0.625rem #bbb, inset -0.313rem -0.313rem 0.625rem #fff;
     transition: 0.5s;
   }
   
@@ -259,13 +259,13 @@ h1 {
   }
   
   .icon {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin: 20px auto;
-    padding: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: 1.875rem;
+    margin: 1.25rem auto;
+    padding: 0.313rem;
     border-radius: 50%;
-    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+    box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
     background-image: url("../images/React.png");
     background-repeat:no-repeat;
     background-size: 90% 80%;
@@ -274,13 +274,13 @@ h1 {
 
 
   .icon2 {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin: 20px auto;
-    padding: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: 1.875rem;
+    margin: 1.25rem auto;
+    padding: 0.313rem;
     border-radius: 50%;
-    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+    box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
     background-image: url("../images/node.png");
     background-repeat:no-repeat;
     background-size: 100% 100%;
@@ -288,45 +288,45 @@ h1 {
   }
 
   .icon3 {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin: 20px auto;
-    padding: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: 1.875rem;
+    margin: 1.25rem auto;
+    padding: 0.313rem;
     border-radius: 50%;
-    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+    box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
     background-image: url("../images/motoko.png");
     background-repeat:no-repeat;
     background-size: 140% 100%;
-    background-position: 50% 2px;
+    background-position: 50% 0.125rem;
   }
 
   .icon4 {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin: 20px auto;
-    padding: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: 1.875rem;
+    margin: 1.25rem auto;
+    padding: 0.313rem;
     border-radius: 50%;
-    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+    box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
     background-image: url("../images/mongo.png");
     background-repeat:no-repeat;
     background-size: 80% 100%;
-    background-position: 50% 2px;
+    background-position: 50% 0.125rem;
   }
 
   .icon5 {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin: 20px auto;
-    padding: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: 1.875rem;
+    margin: 1.25rem auto;
+    padding: 0.313rem;
     border-radius: 50%;
-    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+    box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
     background-image: url("../images/python.png");
     background-repeat:no-repeat;
     background-size: 80% 100%;
-    background-position: 60% 4px;
+    background-position: 60% 0.25rem;
   }
 
   
@@ -334,11 +334,11 @@ h1 {
   .content {
     color: #999;
     background-color: #eee;
-    padding: 10px;
-    margin: 5px 20px;
-    border-radius: 8px;
-    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
-    transform: translateY(-80px) scale(0);
+    padding: 0.625rem;
+    margin: 0.313rem 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
+    transform: translateY(-5rem) scale(0);
     transition: all 0.5s;
   }
   
@@ -347,7 +347,7 @@ h1 {
   }
   
   .content h3 {
-    text-shadow: 2px 2px 0px #fff;
+    text-shadow: 0.125rem 0.125rem 0rem #fff;
   }
 
 
@@ -357,16 +357,16 @@ h1 {
 h2 {
   font-family: 'Playfair Display', serif;
   color: #000000;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
   font-size: 1.7rem;
   font-weight: normal;
 }
 
 .skillsh2 {
   font-family: 'Playfair Display', serif;
-  letter-spacing: 3px;
+  letter-spacing: 0.188rem;
   color: #000000;
-  padding-bottom: 7px;
+  padding-bottom: 0.438rem;
   font-size: 2rem;
   font-weight:500;
 }
@@ -379,30 +379,30 @@ h2 {
 h3 {
   font-family: 'Playfair Display', serif;
   color: #000000;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
 }
 p {
   line-height: 1.5;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 hr {
-  border: dotted #898c8c 6px;
+  border: dotted #898c8c 0.375rem;
   border-bottom: none;
   width: 4%;
-  margin: 70px auto;
+  margin: 4.375rem auto;
 }
 a {
   color: #484a4a;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+  margin: 0.625rem 1.25rem;
   text-decoration: none;
 }
 
 button {
   border: none;
   position: relative;
-  width: 200px;
-  height: 73px;
+  width: 12.5rem;
+  height: 4.563rem;
   padding: 0;
   z-index: 2;
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
@@ -410,7 +410,7 @@ button {
   -webkit-mask-size: 100%;
   cursor: pointer;
   background-color: transparent;
-  transform: translateY(8px)
+  transform: translateY(0.5rem)
  }
  
  button:after {
@@ -424,17 +424,17 @@ button {
  }
  
  button:hover:after {
-  box-shadow: 0px -13px 56px 12px #ffffffa6;
+  box-shadow: 0px -0.813rem 3.5rem 0.75rem #ffffffa6;
  }
  
  button span {
   position: absolute;
   width: 100%;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 100;
   left: 50%;
   top: 39%;
-  letter-spacing: 3px;
+  letter-spacing: 0.188rem;
   text-align: center;
   transform: translate(-50%,-50%);
   color: black;
@@ -463,7 +463,7 @@ button {
 
 .waviy {
   position: relative;
-  margin: 100px auto 0 auto;
+  margin: 6.25rem auto 0 auto;
   font-size: 400%;
   color: #000000;
   font-family: 'Playfair Display', serif;
@@ -471,9 +471,9 @@ button {
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #000000;
-  letter-spacing: -8px;
+  letter-spacing: -0.5rem;
   text-transform: uppercase;
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
@@ -491,10 +491,10 @@ button {
   position:relative;
   color: hsl(0, 0%, 0%);
   font-family: 'Playfair Display', serif;
-  letter-spacing: 3px;
-  margin-left: 35.2%;
+  letter-spacing: 0.188rem;
+  margin-left: 33.2%;
   overflow: hidden;
-  border-right: 2px solid hsl(0, 0%, 0%);
+  border-right: 0.125rem solid hsl(0, 0%, 0%);
   white-space: nowrap;
   animation: typewriter 2s steps(20) 1s 1 normal both,
     blinkTextCursor 900ms infinite;
@@ -507,7 +507,7 @@ button {
     width: 0;
   }
   to {
-    width: 421px;
+    width: 26.313rem;
   }
 }
 @keyframes blinkTextCursor {
@@ -518,7 +518,6 @@ button {
     border-right-color: transparent;
   }
 }
- 
 
 a:hover {
   color: white;
@@ -526,16 +525,14 @@ a:hover {
 }
 .top-container {
   background-image: linear-gradient(rgb(66, 68, 68), rgb(255, 255, 255));
-  padding-top: 100px;
-  height: 540px;
+  padding-top: 6.25rem;
+  height: 28.75rem;
   width: 100%;
 }
 
-
 .top-container h1 {
-  margin-top: 190px;
-}
-
+  margin-top: 7.5rem;
+}            
 
 .bottom-cloud {
   position: absolute;
@@ -551,77 +548,79 @@ a:hover {
 
 .middle-container1 {
   display: inline-flex;
-  margin-left: 50px;
+  margin-left: 0.925rem;
 }
 
   .price-number {
-    margin-left: 50px !important;
+    margin-left: 3.125rem !important;
   }
 
 
 .card1 {
-  margin-left: 45px;
-  width: 500px;
-  height: 350px;
-  border-radius: 30px;
+  margin-left: 2.813rem;
+  width: 31.25rem;
+  height: 21.875rem;
+  border-radius: 1.875rem;
   background: #e0e0e0;
-  box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
+  box-shadow: 0.938rem 0.938rem 1.875rem #bebebe,
+             -0.938rem -0.938rem 1.875rem #ffffff;
 }
 
 .card1 h1{
   font-size:larger;
-  letter-spacing: 2px;
-  margin-top: 20px;
+  letter-spacing: 0.125rem;
+  margin-top: 1.25rem;
 }
 
 .card1 p{
   font-size: 95%;
-  letter-spacing: 0.6px;
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-bottom: 5px;
+  letter-spacing: 0.038rem;
+  margin-left: 0.188rem;
+  margin-right: 0.188rem;
+  margin-bottom: 0.313rem;
 }
 
 .card2 {
-  margin-right: 100px;
-  width: 500px;
-  height: 350px;
-  border-radius: 30px;
+  margin-right: 6.25rem;
+  width: 31.25rem;
+  height: 21.875rem;
+  border-radius: 1.875rem;
   background: #e0e0e0;
-  box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
+  box-shadow: 0.938rem 0.938rem 1.875rem #bebebe,
+             -0.938rem -0.938rem 1.875rem #ffffff;
 }
 
 .card2 h1{
   font-size:larger;
-  letter-spacing: 2px;
-  margin-top: 20px;
+  letter-spacing: 0.125rem;
+  margin-top: 1.25rem;
 }
 
 
 .card2 p{
   font-size: 95%;
-  letter-spacing: 0.6px;
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-bottom: 5px;
+  letter-spacing: 0.038rem;
+  margin-left: 0.188rem;
+  margin-right: 0.188rem;
+  margin-bottom: 0.313rem;
 }
 
 .copyright {
   color: #000000;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 .pranav-image {
   border-radius: 50%;
-  padding: 10px;
+  padding: 1.025rem;
 }
+
+
 .bottom-container {
-  padding: 20px;
+  padding: 1.25rem;
   background-image: linear-gradient( rgb(255, 255, 255), rgb(66, 68, 68));
-  padding: 50px 0 20px;
-  margin-top: 50px;
+  padding: 3.125rem 0 1.25rem;
+  margin-top: 3.125rem;
 }
 
 
@@ -632,21 +631,21 @@ a:hover {
 
 .skill-row {
   width: 50%;
-  margin:50px auto 100px auto;
+  margin:3.125rem auto 6.25rem auto;
   text-align: left;
   padding: 10px
 }
 .computer-img {
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 .chilly-img {
   float: right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .contact-message {
   width: 100%;
-  margin: 40px auto 60px;
+  margin: 2.5rem auto 3.75rem;
 }
 .intro {
   width: 60%;
@@ -659,26 +658,25 @@ a:hover {
 
 
 .h_line {
-  border-bottom: 3px solid rgb(0, 0, 0);
-  width: 190px;
-  margin-top: 1px;
+  border-bottom: 0.188rem solid rgb(0, 0, 0);
+  width: 11.875rem;
+  margin-top: 0.063rem;
 }
 
 .card4 {
-  width: 190px;
-  height: 294px;
+  width: 11.875rem;
+  height: 18.375rem;
   background: #b9b9b9;
   padding: 1rem;
   border-radius: 1rem;
   border: .5vmin solid #05060f;
   box-shadow: .4rem .4rem #05060f;
   overflow: hidden;
-  margin-bottom: 20px;
-  margin-left: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .card5 {
-  width: 190px;
+  width: 11.875rem;
   height: 28rem;
   background: #999999;
   padding: 1rem;
@@ -686,13 +684,13 @@ a:hover {
   border: .5vmin solid #05060f;
   box-shadow: .4rem .4rem #05060f;
   overflow: hidden;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-bottom: 20px;
+  margin-right: 6.25rem;
+  margin-left: 6.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .card6 {
-  width: 190px;
+  width: 11.875rem;
   height: 32rem;
   background: #7c7c7c;
   padding: 1rem;
@@ -700,8 +698,7 @@ a:hover {
   border: .5vmin solid #05060f;
   box-shadow: .4rem .4rem #05060f;
   overflow: hidden;
-  margin-right: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 /*Card content*/
@@ -730,14 +727,14 @@ a:hover {
 .pricing-note {
   opacity: 1;
   color: #000000;
-  margin-top: -30px;
+  margin-top: -1.875rem;
   font-size: large;
 }
 
 .price-number {
   font-size: larger;
-  margin-top: -25px;
-  margin-left: 70px;
+  margin-top: -1.563rem;
+  margin-left: 4.375rem;
 }
 
 /*Checklist*/
@@ -751,7 +748,7 @@ a:hover {
 .check-list-item {
   display: flex;
   color: #000000;
-  margin-right: 40px;
+  margin-right: 2.5rem;
   font-size: larger;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
