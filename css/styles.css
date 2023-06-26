@@ -629,10 +629,36 @@ a:hover {
     font-size: 1.25rem;
   }
 
+  .yesupp{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  .container {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  .contact-me {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  .bottom-container {
+    overflow-x:hidden !important;
+    max-width: 100% !important;
+  }
+
   .skills{
-    margin-left: 6rem;
+    margin-left: 5.5rem;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden !important;
+    max-width: 100% !important;
   }
 
   @keyframes typewriter {
