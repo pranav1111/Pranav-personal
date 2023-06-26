@@ -16,6 +16,17 @@ h1 {
   }
 
 
+.backk {
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  margin-left: 27vw;
+}
+
+
+
+
+
   .bird {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
     background-size: auto 100%;
@@ -571,8 +582,6 @@ a:hover {
   margin-top: 4rem;
 }
 
-
-
 .headd {
   text-align: center;
   padding: 20px;
@@ -586,6 +595,22 @@ a:hover {
 .headd h2 {
   font-size: 1.5rem;
   margin-bottom: 0;
+}
+
+.backk {
+  display: block;
+  margin: 0 auto;
+  width: 20rem;
+  height: 3rem;
+}
+
+.backk1 {
+  display: block;
+  margin: 0 auto;
+  width: 20rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 /* CSS Media Query for small screens */
@@ -620,6 +645,22 @@ a:hover {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .backk {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 3rem;
+  }
+
+  .backk1 {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 
   body{
@@ -668,6 +709,23 @@ a:hover {
 
   .skills {
     margin-left: 2.5rem;
+  }
+
+  .backk {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+  }
+
+  .backk1 {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 
   body {
