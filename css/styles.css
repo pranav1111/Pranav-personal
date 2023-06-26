@@ -13,6 +13,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   }
 
+
   .bird {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
     background-size: auto 100%;
@@ -53,7 +54,7 @@ h1 {
   }
 
 
-  .bird-container {
+  .bird-container44 {
     position: absolute;
     top: 20%;
     left: -10%;
@@ -241,9 +242,8 @@ h1 {
     }
   }
 
-  .card {
-    margin-top: 3.75rem;
-    margin-right: 1.25rem;
+  .cardplay {
+    margin-top: 1.75rem;
     width: 11.875rem;
     height: 7.5rem;
     background-color: #eee;
@@ -252,10 +252,12 @@ h1 {
     border-radius: 1.25rem;
     box-shadow: inset 0.313rem 0.313rem 0.625rem #bbb, inset -0.313rem -0.313rem 0.625rem #fff;
     transition: 0.5s;
+    margin-bottom: 9rem;
+    z-index: 1;
   }
   
-  .card:hover {
-    height: 254px;
+  .cardplay:hover {
+    height: 15.875rem;
   }
   
   .icon {
@@ -340,9 +342,10 @@ h1 {
     box-shadow: 0.5rem 0.5rem 0.625rem #ddd, -0.5rem -0.5rem 0.625rem #fff;
     transform: translateY(-5rem) scale(0);
     transition: all 0.5s;
+    z-index: 2;
   }
   
-  .card:hover .content {
+  .cardplay:hover .content {
     transform: translateY(0) scale(1)
   }
   
@@ -365,16 +368,45 @@ h2 {
 .skillsh2 {
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.188rem;
+  text-align: center;
   color: #000000;
   padding-bottom: 0.438rem;
   font-size: 2rem;
   font-weight:500;
+  margin-top: 6rem;
 }
 
-
-.skills{
-  display: inline-flex;
+.hello {
+  width: 60rem;
+  margin-right: -2rem;
 }
+
+.hii{
+  margin-right: -2rem;
+}
+
+.skills {
+  display:flex;
+  margin-left: 8rem;
+  flex-wrap: nowrap;
+}
+
+.hii1 {
+  margin-right: -2rem;
+}
+
+.hii2 {
+  margin-right: -2rem;
+}
+
+.hii3 {
+  margin-right: -2rem;
+}
+
+.hii4 {
+  margin-right: -7rem;
+}
+
 
 h3 {
   font-family: 'Playfair Display', serif;
@@ -477,7 +509,7 @@ button {
   text-transform: uppercase;
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
-}
+}ca
 @keyframes flip {
   0%,80% {
     transform: rotateY(360deg) 
@@ -487,18 +519,21 @@ button {
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 /* Base */
 
-.heading-2 {
-  position:relative;
+.headingyes {
+  position: relative;
   color: hsl(0, 0%, 0%);
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.188rem;
-  margin-left: 33.2%;
+  margin: 0 auto;
   overflow: hidden;
   border-right: 0.125rem solid hsl(0, 0%, 0%);
   white-space: nowrap;
-  animation: typewriter 2s steps(20) 1s 1 normal both,
-    blinkTextCursor 900ms infinite;
+  animation: typewriter 1.5s steps(21) 1s 1 normal both,
+             blinkTextCursor 900ms infinite;
 }
+
+/* Rest of the CSS code remains unchanged */
+
 
 
 
@@ -507,7 +542,7 @@ button {
     width: 0;
   }
   to {
-    width: 26.313rem;
+    width: 24.113rem;
   }
 }
 @keyframes blinkTextCursor {
@@ -523,32 +558,39 @@ a:hover {
   color: white;
   transition: background-color .5s;
 }
-.top-container {
+.yesupp {
   background-image: linear-gradient(rgb(66, 68, 68), rgb(255, 255, 255));
   padding-top: 6.25rem;
-  height: 28.75rem;
+  height: 44.75rem;
   width: 100%;
+  justify-content:center;
 }
 
-.top-container h1 {
-  margin-top: 7.5rem;
+.yesupp h1 {
+  margin-top: 9.5rem;
+  text-align: center;
+  font-weight: bolder;
 }            
 
 .bottom-cloud {
   position: absolute;
-  margin-top: -10rem;
-  margin-left: -40rem;
+  margin-top: -14rem;
+  margin-left: 45rem;
 }
 
 .top-cloud {
   position: absolute;
   margin-right: -20rem !important;
-  margin-top: -18rem;
+  margin-top: -17rem;
 }
 
-.middle-container1 {
-  display: inline-flex;
-  margin-left: 0.925rem;
+
+.middle-yes-1 {
+  display:inherit;
+  margin-left: 6.925rem;
+  justify-content:center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 
   .price-number {
@@ -556,10 +598,107 @@ a:hover {
   }
 
 
+
+
+
+
+.headd {
+  text-align: center;
+  padding: 20px;
+}
+
+.headd h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.headd h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/* CSS Media Query for small screens */
+@media (max-width: 767px) {
+  .headd h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+
+  .headd h2 {
+    font-size: 1.25rem;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+         }
+    to {
+      width: 21.113rem;
+      }
+    }
+  }
+
+/* CSS Media Query for medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .headd h1 {
+    font-size: 2.25rem;
+    margin-bottom: 7px;
+  }
+
+  .headd h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* CSS Media Query for large screens */
+@media (min-width: 992px) {
+  .headd h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .headd h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+      /* CSS Media Query for small screens */
+      @media (max-width: 767px) {
+        .card1 {
+          margin-left: -0.2rem !important;
+        }
+
+        .card2 {
+          margin-right: -0.2rem !important;
+        }
+        .row {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .aos-init {
+          opacity: 1 !important;
+        }
+      }
+    
+      /* CSS Media Query for large screens */
+      @media (min-width: 768px) {
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+
+
+
+
+
 .card1 {
-  margin-left: 2.813rem;
-  width: 31.25rem;
-  height: 21.875rem;
+  margin-left: 5.813rem;
+  margin-bottom: 2rem;
+  width: 20.25rem;
+  height: 22.875rem;
   border-radius: 1.875rem;
   background: #e0e0e0;
   box-shadow: 0.938rem 0.938rem 1.875rem #bebebe,
@@ -568,8 +707,12 @@ a:hover {
 
 .card1 h1{
   font-size:larger;
+  font-weight: bolder;
   letter-spacing: 0.125rem;
   margin-top: 1.25rem;
+  padding-top: 5rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
 }
 
 .card1 p{
@@ -578,12 +721,14 @@ a:hover {
   margin-left: 0.188rem;
   margin-right: 0.188rem;
   margin-bottom: 0.313rem;
+  text-align: center;
 }
 
 .card2 {
-  margin-right: 6.25rem;
-  width: 31.25rem;
-  height: 21.875rem;
+  margin-right: 5.813rem;
+  margin-bottom: 2rem;
+  width: 20.25rem;
+  height: 22.875rem;
   border-radius: 1.875rem;
   background: #e0e0e0;
   box-shadow: 0.938rem 0.938rem 1.875rem #bebebe,
@@ -592,8 +737,12 @@ a:hover {
 
 .card2 h1{
   font-size:larger;
+  font-weight: bolder;
   letter-spacing: 0.125rem;
   margin-top: 1.25rem;
+  padding-top: 5rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
 }
 
 
@@ -603,6 +752,7 @@ a:hover {
   margin-left: 0.188rem;
   margin-right: 0.188rem;
   margin-bottom: 0.313rem;
+  text-align: center;
 }
 
 .copyright {
@@ -624,9 +774,6 @@ a:hover {
 }
 
 
-.skills {
-  display: inline-flex;
-}
 
 
 .skill-row {
@@ -648,24 +795,38 @@ a:hover {
   margin: 2.5rem auto 3.75rem;
 }
 .intro {
-  width: 60%;
+  width: 80%;
   margin: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-me h2{
+  font-weight: bold;
+}
+
+
+.contact-me h3{
+  font-size: large;
 }
 
 .newcards {
   display: inline-flex;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 12rem;
 }
 
 
 .h_line {
   border-bottom: 0.188rem solid rgb(0, 0, 0);
-  width: 11.875rem;
+  width: 9.675rem;
   margin-top: 0.063rem;
 }
 
 .card4 {
   width: 11.875rem;
-  height: 18.375rem;
+  height: 24.375rem;
   background: #b9b9b9;
   padding: 1rem;
   border-radius: 1rem;
@@ -673,11 +834,12 @@ a:hover {
   box-shadow: .4rem .4rem #05060f;
   overflow: hidden;
   margin-bottom: 1.25rem;
+  z-index: -1;
 }
 
 .card5 {
   width: 11.875rem;
-  height: 28rem;
+  height: 35rem;
   background: #999999;
   padding: 1rem;
   border-radius: 1rem;
@@ -687,18 +849,21 @@ a:hover {
   margin-right: 6.25rem;
   margin-left: 6.25rem;
   margin-bottom: 1.25rem;
+  z-index: -1;
 }
 
 .card6 {
   width: 11.875rem;
-  height: 32rem;
+  height: 45rem;
   background: #7c7c7c;
   padding: 1rem;
   border-radius: 1rem;
   border: .5vmin solid #05060f;
   box-shadow: .4rem .4rem #05060f;
   overflow: hidden;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5.5rem;
+  z-index: -1;
+  margin-left: 12.5rem;
 }
 
 /*Card content*/
@@ -714,6 +879,7 @@ a:hover {
   font-size: 1.3rem;
   line-height: 1.25;
   font-weight: 700;
+  text-align: center;
 }
 
 .price-value {
@@ -722,6 +888,8 @@ a:hover {
   font-size: 1.8rem;
   line-height: 1.25;
   font-weight: 700;
+  text-align: center;
+  margin-left: -1rem;
 }
 
 .pricing-note {
@@ -729,6 +897,9 @@ a:hover {
   color: #000000;
   margin-top: -1.875rem;
   font-size: large;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.2rem;
 }
 
 .price-number {
@@ -751,4 +922,10 @@ a:hover {
   margin-right: 2.5rem;
   font-size: larger;
   margin-top: 0.625rem;
+  text-align: center;
+}
+
+.footer-link {
+  color: #000000;
+  text-decoration: none;
 }
