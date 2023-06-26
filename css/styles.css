@@ -627,6 +627,9 @@ a:hover {
   .headd h2 {
     font-size: 1.25rem;
   }
+  .body{
+  overflow-x: hidden;
+  }
   @keyframes typewriter {
     from {
       width: 0;
