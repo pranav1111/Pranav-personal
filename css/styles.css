@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   overflow-x: hidden;
+  width: 100%;
 }
 h1 {
   margin: 6.875rem auto 0 auto;
@@ -628,7 +629,8 @@ a:hover {
     font-size: 1.25rem;
   }
   .body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  width: 100% !important;
   }
 
   @keyframes typewriter {
@@ -653,7 +655,8 @@ a:hover {
   }
 
   .body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: 100% !important;
     }
 }
 
