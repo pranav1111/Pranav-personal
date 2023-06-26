@@ -651,7 +651,13 @@ a:hover {
   .headd h2 {
     font-size: 1.4rem;
   }
+
+  .body{
+    overflow-x: hidden;
+    }
 }
+
+
 
 /* CSS Media Query for large screens */
 @media (min-width: 992px) {
@@ -663,7 +669,12 @@ a:hover {
   .headd h2 {
     font-size: 1.5rem;
   }
+  .body{
+    overflow-x: hidden;
+    }
 }
+
+
 
 
 
