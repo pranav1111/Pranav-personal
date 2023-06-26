@@ -3,12 +3,13 @@ body {
   color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
-  overflow-x: hidden;
   width: 100%;
+  overflow-x: hidden;
 }
+
 h1 {
   margin: 6.875rem auto 0 auto;
-  font-size: 300%;
+  font-size: 300rem;
   color: #000000;
   letter-spacing: 0.313rem;
   font-family: 'Playfair Display', serif;
@@ -494,28 +495,6 @@ button {
   width: 100%;
  }
 
-.waviy {
-  position: relative;
-  margin: 6.25rem auto 0 auto;
-  font-size: 400%;
-  color: #000000;
-  font-family: 'Playfair Display', serif;
-}
-.waviy span {
-  position: relative;
-  display: inline-block;
-  font-size: 2.5rem;
-  color: #000000;
-  letter-spacing: -0.5rem;
-  text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
-}ca
-@keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
-  }
-}
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 /* Base */
@@ -565,6 +544,7 @@ a:hover {
   height: 44.75rem;
   width: 100%;
   justify-content:center;
+  overflow-x: hidden;
 }
 
 .yesupp h1 {
@@ -594,13 +574,6 @@ a:hover {
   margin-top: 4rem;
 }
 
-  .price-number {
-    margin-left: 3.125rem !important;
-  }
-
-
-
-
 
 
 .headd {
@@ -629,36 +602,29 @@ a:hover {
     font-size: 1.25rem;
   }
 
-  .yesupp{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+  .card1 {
+    margin-left: -0.2rem !important;
   }
 
-  .body {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
+  .card2 {
+    margin-right: -0.2rem !important;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
   }
 
-  .container {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
+  .aos-init {
+    opacity: 1 !important;
   }
 
-  .contact-me {
-    overflow-x: hidden !important;
-    max-width: 100% !important;
-  }
-
-  .bottom-container {
-    overflow-x:hidden !important;
-    max-width: 100% !important;
-  }
-
-  .skills{
-    margin-left: 5.5rem;
+  .skills {
+    margin-left: 6rem;
     align-items: center;
-    overflow: hidden !important;
-    max-width: 100% !important;
+  }
+
+  body{
+    overflow-x: hidden;
   }
 
   @keyframes typewriter {
@@ -681,11 +647,6 @@ a:hover {
   .headd h2 {
     font-size: 1.4rem;
   }
-
-  .body{
-    overflow-x: hidden !important;
-    width: 100% !important;
-    }
 }
 
 
@@ -700,43 +661,11 @@ a:hover {
   .headd h2 {
     font-size: 1.5rem;
   }
-  .body{
-    overflow-x: hidden;
-    }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-
-
-
-
-
-      /* CSS Media Query for small screens */
-      @media (max-width: 767px) {
-        .card1 {
-          margin-left: -0.2rem !important;
-        }
-
-        .card2 {
-          margin-right: -0.2rem !important;
-        }
-        .row {
-          display: flex;
-          flex-direction: column;
-        }
-    
-        .aos-init {
-          opacity: 1 !important;
-        }
-      }
-    
-      /* CSS Media Query for large screens */
-      @media (min-width: 768px) {
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-        }
-      }
-
-
 
 
 
@@ -820,24 +749,8 @@ a:hover {
 }
 
 
-
-
-.skill-row {
-  width: 50%;
-  margin:3.125rem auto 6.25rem auto;
-  text-align: left;
-  padding: 10px
-}
-.computer-img {
-  float: left;
-  margin-right: 1.875rem;
-}
-.chilly-img {
-  float: right;
-  margin-left: 1.875rem;
-}
 .contact-message {
-  width: 100%;
+  width: 90%;
   margin: 2.5rem auto 3.75rem;
 }
 .intro {
@@ -868,90 +781,6 @@ a:hover {
   border-bottom: 0.188rem solid rgb(0, 0, 0);
   width: 9.675rem;
   margin-top: 0.063rem;
-}
-
-.card4 {
-  width: 11.875rem;
-  height: 24.375rem;
-  background: #b9b9b9;
-  padding: 1rem;
-  border-radius: 1rem;
-  border: .5vmin solid #05060f;
-  box-shadow: .4rem .4rem #05060f;
-  overflow: hidden;
-  margin-bottom: 1.25rem;
-  z-index: -1;
-}
-
-.card5 {
-  width: 11.875rem;
-  height: 35rem;
-  background: #999999;
-  padding: 1rem;
-  border-radius: 1rem;
-  border: .5vmin solid #05060f;
-  box-shadow: .4rem .4rem #05060f;
-  overflow: hidden;
-  margin-right: 6.25rem;
-  margin-left: 6.25rem;
-  margin-bottom: 1.25rem;
-  z-index: -1;
-}
-
-.card6 {
-  width: 11.875rem;
-  height: 45rem;
-  background: #7c7c7c;
-  padding: 1rem;
-  border-radius: 1rem;
-  border: .5vmin solid #05060f;
-  box-shadow: .4rem .4rem #05060f;
-  overflow: hidden;
-  margin-bottom: 5.5rem;
-  z-index: -1;
-  margin-left: 12.5rem;
-}
-
-/*Card content*/
-.pricing-block-content {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  gap: .5rem;
-}
-
-.pricing-plan {
-  color: #05060f;
-  font-size: 1.3rem;
-  line-height: 1.25;
-  font-weight: 700;
-  text-align: center;
-}
-
-.price-value {
-  display: flex;
-  color: #05060f;
-  font-size: 1.8rem;
-  line-height: 1.25;
-  font-weight: 700;
-  text-align: center;
-  margin-left: -1rem;
-}
-
-.pricing-note {
-  opacity: 1;
-  color: #000000;
-  margin-top: -1.875rem;
-  font-size: large;
-  text-align: center;
-  width: 100%;
-  margin-top: 0.2rem;
-}
-
-.price-number {
-  font-size: larger;
-  margin-top: -1.563rem;
-  margin-left: 4.375rem;
 }
 
 /*Checklist*/
