@@ -16,14 +16,6 @@ h1 {
   }
 
 
-.backk {
-  background-position: 0%;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  margin-left: 27vw;
-}
-
-
 
 
 
@@ -402,7 +394,7 @@ h2 {
   display:flex;
   justify-content:center;
   width: 78vw;
-  flex-wrap:wrap;
+  flex-wrap:wrap; 
 }
 
 .hii1 {
@@ -748,9 +740,12 @@ a:hover {
 
   .row {
     display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
   }
-  
+
+
   .hii4 {
     margin-right: -100rem !important;
   }
